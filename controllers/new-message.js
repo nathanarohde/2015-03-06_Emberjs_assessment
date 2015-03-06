@@ -14,7 +14,7 @@ Email.NewMessageController = Ember.ObjectController.extend({
       this.set('title', null);
       this.set('body', null);
 
-      transitionToRoute('listOfMessages');
+      this.transitionToRoute('listOfMessages');
       }
     }
 });

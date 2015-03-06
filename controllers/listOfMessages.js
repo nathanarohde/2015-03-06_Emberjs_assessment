@@ -1,3 +1,3 @@
-Email.ListOfMessagesController = Ember.Controller.extend ({
+Email.ListOfMessagesController = Ember.ArrayController.extend ({
 
 });
