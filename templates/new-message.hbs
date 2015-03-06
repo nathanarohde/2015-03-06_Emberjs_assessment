@@ -1,1 +1,16 @@
-<p>Input form goes here later</p>
+<h4>Create new message</h4>
+
+<form>
+  <div class='form-group'>
+    <label for='name'>Name:</label>
+    {{input value=name id='name' class='form-control'}}
+    <label for='address'>Address:</label>
+    {{input value=address id='address' class='form-control'}}
+    <label for='title'>Title:</label>
+    {{input value=title id='title' class='form-control'}}
+    <label for='body'>Body:</label>
+    {{textarea value=body id='body' class='form-control'}}
+  </div>
+
+  <button class='btn btn-default' {{action 'save'}}>Send message</button>
+</form>
