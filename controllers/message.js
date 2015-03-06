@@ -1,3 +1,3 @@
-Email.MessageController = Ember.Controller.extend({
+Email.MessageController = Ember.ObjectController.extend({
 
 });

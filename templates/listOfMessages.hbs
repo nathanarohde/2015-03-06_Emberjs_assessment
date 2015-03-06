@@ -3,6 +3,6 @@
 {{#link-to 'new-message' classNames='btn btn-default'}}Create new message{{/link-to}}
 <ul>
   {{#each message in model}}
-    <li>{{#link-to 'message' message}} {{message.title}} {{/link-to}}</li>
+    <li>{{#link-to 'message' message.id}} {{message.title}} {{/link-to}}</li>
   {{/each}}
 </ul>
