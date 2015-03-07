@@ -5,7 +5,7 @@
   <tbody>
     {{#each message in model}}
       {{#link-to 'message' message.id}}
-        <tr> <td>{{message.name}}</td><td> {{message.title}}</td> </tr>
+        <tr> <td class='col-md-3'>{{message.name}}</td><td class='col-m-3'> {{message.title}}</td> </tr>
       {{/link-to}}
     {{/each}}
   </tbody>

@@ -1,0 +1,89 @@
+/*For study purposes entire file copied from here, file will be played with and maybe no represent original file*/
+/*https://github.com/zulaica/email-client/blob/master/styles/global.css*/
+
+body {
+  font-family: "VT323", monospace;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.jumbotron {
+  padding: 3rem 0 0 0;
+}
+
+h2{
+  color: green;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: "VT323", monospace;
+}
+
+a {
+  display: block;
+  cursor: default;
+}
+
+.nav-tabs.nav-justified > li > a,
+.nav-pills > li > a,
+.btn,
+.form-control {
+  border-radius: 0;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background: transparent;
+  box-shadow: inset 0 -.5rem 0 #2a9fd6;
+  border-color: transparent !important;
+  border-bottom: 1px solid #2a9fd6 !important;
+  }
+
+table,
+.table,
+.btn,
+.form-control {
+  font-size: 20px;
+}
+
+td
+{
+  color:yellow;
+  min-width:60px
+}
+
+td + td,
+th + th {
+  text-align: left;
+}
+
+nav {
+  margin-top: 4rem;
+}
+
+section + section {
+  margin-top: 4rem;
+}
+
+td {
+  padding: 0 !important;
+}
+
+td a {
+  padding: 8px;
+}
+
+.btn-primary {
+  background: transparent;
+  color: #2a9fd6;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background: #2a9fd6 !important;
+}
+
+.disabled a:hover {
+  background: #424242 !important;
+  border-color: #424242 !important;
+}
